@@ -5,7 +5,7 @@ export const TopNavBar = (container) => {
                                 <h1>Top Nav Bar</h1>
                                 <div class="links">
                                     <a href="/">Home</a>
-                                    <a href="/about-me">About me</a>
+                                    <a href="../../pages/AboutMe/aboutMe.html">About me</a>
                                     <a href="/projects">Projects</a>
                                 </div>
                             </div>

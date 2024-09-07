@@ -1,0 +1,17 @@
+@use "../../styles/mixin" as *;
+@use "../../styles/variables" as *;
+
+.about-me {
+    @include flex-center-row;
+    flex-direction: column;
+    margin-top: 1%;
+
+    h2 {
+        font-family: $font-primary;
+        color: $primary-color;
+    }
+
+    a {
+        margin-top: 1%;
+    }
+}
