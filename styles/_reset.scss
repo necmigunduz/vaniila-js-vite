@@ -1,0 +1,9 @@
+@use "./variables" as *;
+@use "./mixin" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; // Genişliğin istenilen boyutta korunmasını sağlamak için...
+  scroll-behavior: smooth; // Sayfa içinde aşağı yukarı giderken yumuşak bir geçişin olması ve atlamaların engellenmesi için...
+}

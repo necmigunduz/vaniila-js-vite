@@ -1,0 +1,14 @@
+// Google'dan Poppins Font'u al
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+// Poppins'i font-primary değişkeni yap
+$font-primary: 'Poppins', sans-serif;
+
+// Temel Renkler
+$primary-color: #3498db;   // Blue
+$secondary-color: #2ecc71; // Green
+
+// Örnek kullanımı
+// body {
+//     font-family: $font-primary;
+// }
